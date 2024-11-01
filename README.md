@@ -1,3 +1,3 @@
 # goit-markup-hw-02
 
-first homework
+second homework
