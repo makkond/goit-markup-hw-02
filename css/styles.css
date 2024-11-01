@@ -4,7 +4,7 @@ font-family: "Roboto", sans-serif; */
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
-  background: var(--white);
+  background: #ffffff;
 }
 
 ul,
@@ -88,7 +88,8 @@ a {
   background-color: #4d5ae5;
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
   background-color: #404bbf;
 }
 
@@ -126,8 +127,14 @@ a {
   line-height: 111%;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
+
+.team-item {
+  background-color: #ffffff;
+}
+
 .subject-subtitle {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
